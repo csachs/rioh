@@ -1,0 +1,39 @@
+INFO: This is a crude state at the moment, it will (hopefully) be extended with more explanatory text in the future.
+
+Content-Type: image/x.raw; version=1.0; endian=little; datatype=uint16; dimensions=YX; size=652x2500
+
+MUST HAVE version
+MUST BE 1.0
+
+CAN HAVE endian
+CAN BE little, big
+
+MUST HAVE datatype
+CAN BE 
+
+//bit
+uint8
+uint16
+uint32
+uint64
+int8
+int16
+int32
+int64
+float32
+float64
+complex64
+complex128
+
+MUST HAVE dimensions
+MUST BE COMBINATION OF X Y Z C T 
+
+MUST HAVE size
+MUST BE (length of dimensions)x numbers
+
+
+Multiple images can be concatenated.
+Parameter values must be concatenated with _.
+At least size MUST be repeated, everything else will be deduced from the LAST accessible value of the certain parameter.
+
+

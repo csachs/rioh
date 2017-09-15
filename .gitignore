@@ -1,0 +1,12 @@
+target/
+.idea/
+build/
+dist/
+*.iml
+*.egg-info/
+
+__pycache__/
+*.pyc
+
+*.dll
+*.so
