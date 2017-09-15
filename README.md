@@ -1,3 +1,4 @@
+![RIOH Logo](https://cdn.rawgit.com/csachs/rioh/cfa419fca6e0614b1befed5322beffca097a9dba/documentation/rioh_logo.svg)
 
 # RIOH - Raw Images over HTTP
 
